@@ -7,8 +7,45 @@ package entity;
 
 /**
  *
- * @author Nadide
+ * @author brkna
  */
 public class Dosya {
+    private Long id;
+    private String dosyaİsim;
+    private String dosyaYolu;
+    private String dosyaUzanti;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getDosyaİsim() {
+        return dosyaİsim;
+    }
+
+    public void setDosyaİsim(String dosyaİsim) {
+        this.dosyaİsim = dosyaİsim;
+    }
+
+    public String getDosyaYolu() {
+        return dosyaYolu;
+    }
+
+    public void setDosyaYolu(String dosyaYolu) {
+        this.dosyaYolu = dosyaYolu;
+    }
+
+    public String getDosyaUzanti() {
+        return dosyaUzanti;
+    }
+
+    public void setDosyaUzanti(String dosyaUzanti) {
+        this.dosyaUzanti = dosyaUzanti;
+    }
+    
     
 }
